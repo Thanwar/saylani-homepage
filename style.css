@@ -1,0 +1,287 @@
+body{
+    background-color: whitesmoke;
+    margin: 0 0;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  GENERAL CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.heading{
+    text-align: center;
+}
+.circle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle img
+{
+    padding: 0px 10px;
+}
+
+.blue{
+    color: blue;
+}
+.lgreen{
+    color: rgb(62, 240, 62);
+}
+.green{
+    color: green;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  GENERAL CSS ENDS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  HEADER CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.header{
+    background-color: royalblue;
+}
+.header p{
+    color: white;
+}
+
+#icons li{
+    list-style: none;
+    display: inline;
+}
+
+#hbuttons li{
+    list-style: none;
+    display: inline;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  NAVBAR CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+nav
+{
+    background-color: whitesmoke;
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+
+.home{
+    background-color: royalblue;
+    color: white;
+    margin: 10 10;
+    border-radius: 20px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  HEADER CSS ENDS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  BANNER CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.news{
+    background-color: royalblue;
+    text-align: center;
+    margin: 30px 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  BANNER CSS ENDS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  ARTICLE CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.article{
+    /* padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px; */
+}
+
+.para p {
+    color: grey;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  ARTICLE CSS ENDS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  BLUEAREA CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.bluearea{
+    background-color: blue;
+}
+
+.num{
+    padding: 70px 10px;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  BLUEAREA CSS ENDS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  6 BOXS CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.box{
+    background-color: white;
+    text-align: center;
+    height: 200px;
+    width: 350px;
+    margin: 15px 15px;
+    box-shadow: 5px 10px 10px #888888;
+    padding: 30px 10px 10px 10px;
+    color: blue;
+}
+
+
+
+
+/* #boxr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: wrap;
+}
+#boxr2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: wrap;
+}
+ */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  6 BOXS CSS ENDS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+
+
+
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  WHITE AREA CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#white{
+    background-color: white;
+    color: blue;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< LABEL CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* .pboxes{
+
+    margin: 20px 20px;
+    border:  10px solid red; 
+
+}
+
+/* .boxes   
+{   
+    height: 50px; 
+    width: 400px; 
+    padding: 15px 15px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+.pbox img{
+    height: 32px;
+    width: auto;
+    padding: 15px 15px;
+}
+.pbox p{
+    margin: 10px 0;
+} */ 
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< LABEL CSS ENDS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  IMAGES CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#image{
+    list-style: none;
+}
+
+#image img {
+    height: 200px;
+}
+
+
+#pics ul li
+{
+    /* display: flex;
+    flex-direction: row; */
+    display: inline-block;
+
+
+}
+#pics ul li img
+{
+    height: 150px;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  IMAGES CSS ENDS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< WHITE AREA CSS ENDS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER CSS STARTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+footer{
+    background-color: blue;
+}
+
+#footer{
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    background-color: rgb(44, 42, 42);
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contacts li{
+    list-style: none;
+}
+
+.circle ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+#foot{
+    background-color: royalblue;
+    color: white;
+}
+
+#foot p{
+    display: flex;
+    margin: 0 0;
+    padding-left: 100px;
+    height: 50px;
+    align-items: center;
+    font-size: 11px;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER CSS ENDS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
